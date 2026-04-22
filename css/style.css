@@ -168,7 +168,7 @@
     right: 0;
     width: calc(50% + 45px);
     height: 100%;
-    background: orangered;
+    background: #660000;
     z-index: -1;
 }
 
@@ -333,7 +333,7 @@
     display: inline-block;
     padding: 3px 15px;
     color: var(--bs-white);
-   background-color: orangered;
+   background-color: #660000;
 }
 
 
@@ -350,7 +350,7 @@
     left: 0;
     width: calc(50% + 45px);
     height: 100%;
-   background-color: orangered;
+   background-color: #660000;
     z-index: -1;
 }
 
@@ -391,7 +391,7 @@
 
 .testimonial-carousel .owl-dot.active {
     width: 30px;
-    background-color: orangered;: 
+    background-color: #660000;
 }
 
 @media (max-width: 768px) {
@@ -411,7 +411,7 @@
 .newsletter {
     background: bottom right no-repeat;
     background-size: cover;
-    background-color: orangered;
+    background-color: #660000;
     color: wh;
 }
 
@@ -491,5 +491,5 @@
     border-right: none;
 }
 #arrow1{
-    background-color: orangered;
+    background-color: #660000;
 }
