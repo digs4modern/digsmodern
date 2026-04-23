@@ -412,7 +412,7 @@
     background: bottom right no-repeat;
     background-size: cover;
     background-color: #660000;
-    color: wh;
+    color: white;
 }
 
 @media (min-width: 992px) {
