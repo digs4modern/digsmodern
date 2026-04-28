@@ -109,13 +109,13 @@
     }
 
     .navbar .dropdown-item {
-        color: #fff;
+        color:black;
         padding: 10px 20px;
     }
 
     .navbar .dropdown-item:hover {
         background-color: dimgray;
-        color: #fff;
+        color: black;
     }
 }
 
