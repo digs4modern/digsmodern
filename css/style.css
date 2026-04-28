@@ -98,7 +98,6 @@
 /* ================= MOBILE VIEW ================= */
 @media (max-width: 991.98px) {
 
-    /* Important fix */
     .navbar .dropdown-menu {
         position: static !important;
         width: 100%;
@@ -106,11 +105,14 @@
         border: none;
         box-shadow: none;
         background-color: #ff5a1f;
-        display: none;   /* hidden first */
+        display: none;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
     }
 
-    /* Show when open */
-    .navbar .dropdown.show .dropdown-menu {
+    /* Bootstrap open state */
+    .navbar .dropdown-menu.show {
         display: block;
     }
 
@@ -125,13 +127,13 @@
     }
 }
 
+
 /* ================= DESKTOP VIEW ================= */
 @media (min-width: 992px) {
 
     .navbar .nav-item {
         position: relative;
     }
-
 
     .navbar .dropdown-menu {
         display: block;
@@ -148,7 +150,6 @@
         top: 100%;
     }
 }
-
 /*** Hero Header ***/
 .hero-header {
     margin-top: -100px;
