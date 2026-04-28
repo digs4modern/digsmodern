@@ -96,9 +96,9 @@
 }
 
 /* ================= MOBILE VIEW ================= */
-/* MOBILE DROPDOWN FIX */
 @media (max-width: 991.98px) {
 
+    /* Important fix */
     .navbar .dropdown-menu {
         position: static !important;
         width: 100%;
@@ -106,19 +106,24 @@
         border: none;
         box-shadow: none;
         background-color: #ff5a1f;
+        display: none;   /* hidden first */
+    }
+
+    /* Show when open */
+    .navbar .dropdown.show .dropdown-menu {
+        display: block;
     }
 
     .navbar .dropdown-item {
-        color:black;
+        color: black;
         padding: 10px 20px;
     }
 
     .navbar .dropdown-item:hover {
         background-color: dimgray;
-        color: black;
+        color: white;
     }
 }
-
 
 /* ================= DESKTOP VIEW ================= */
 @media (min-width: 992px) {
