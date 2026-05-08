@@ -3,22 +3,34 @@
 
 <url>
 <loc>https://digsmodern.in/</loc>
-<priority>1.0</priority>
 </url>
 
 <url>
 <loc>https://digsmodern.in/about.html</loc>
-<priority>0.8</priority>
 </url>
 
 <url>
 <loc>https://digsmodern.in/service.html</loc>
-<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://digsmodern.in/project.html</loc>
+</url>
+
+<url>
+<loc>https://digsmodern.in/team.html</loc>
 </url>
 
 <url>
 <loc>https://digsmodern.in/contact.html</loc>
-<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://digsmodern.in/feature.html</loc>
+</url>
+
+<url>
+<loc>https://digsmodern.in/testimonial.html</loc>
 </url>
 
 </urlset>
