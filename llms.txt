@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Website: https://digsmodern.in
+Company: Digs Modern
+Industry: Interior Design
